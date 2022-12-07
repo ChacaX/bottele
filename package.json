@@ -1,0 +1,38 @@
+{
+  "name": "FuumBOT",
+  "version": "2.0.0",
+  "description": "Bot telegram use lib telegraf",
+  "main": "pais.js",
+  "scripts": {
+    "start": "nodemon pais.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paiiss/FummyBOT.git"
+  },
+  "keywords": [
+    "bot",
+    "telegram",
+    "telegraf",
+    "telebot"
+  ],
+  "author": "pais",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Paiiss/FummyBOT/issues"
+  },
+  "homepage": "https://github.com/Paiiss/FummyBOT#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "extra": "^0.2.1",
+    "markup": "0.0.4",
+    "moment-timezone": "^0.5.33",
+    "nodemon": "^2.0.7",
+    "os": "^0.1.1",
+    "performance-now": "^2.1.0",
+    "telegraf": "^4.0.3",
+    "telegraf-inline-menu": "^6.1.0",
+    "telegraf-update-logger": "^1.4.0"
+  }
+}
